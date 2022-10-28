@@ -5,4 +5,6 @@ module.exports = {
     tabWidth: 4,
     endOfLine: 'auto',
     importOrderSeparation: true,
+    plugins: [require('prettier-plugin-tailwindcss')],
+    tailwindConfig: './tailwind.config.js',
 };
